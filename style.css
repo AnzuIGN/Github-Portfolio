@@ -1,3 +1,60 @@
+/* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
-  }
+}
+
+/* Header Styles */
+header {
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Hero Section */
+#home h1 {
+    transition: transform 0.3s ease;
+}
+
+#home h1:hover {
+    transform: translateY(-5px);
+}
+
+/* Button Styles */
+a, button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover, button:hover {
+    background-color: #1d4ed8; /* Darker blue */
+    transform: translateY(-2px);
+}
+
+/* Portfolio Section */
+.portfolio-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Form */
+input, textarea {
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #1d4ed8; /* Darker blue */
+}
+
+/* Footer Styles */
+footer {
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color: rgba(31, 41, 55, 0.9); /* Darker gray */
+}
