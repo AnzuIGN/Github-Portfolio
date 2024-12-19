@@ -8,30 +8,32 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-[#222] text-[#aaa]">
   <!-- Header -->
-  <header class="bg-white shadow-md">
+  <header class="bg-[#111] shadow-md">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="text-2xl font-bold">My Portfolio</div>
+      <div class="text-2xl text-[#ccc] font-bold">My Portfolio</div>  
       <nav>
         <ul class="flex space-x-4">
-          <li><a href="#home" class="hover:text-blue-500">Home</a></li>
-          <li><a href="#portfolio" class="hover:text-blue-500">Portfolio</a></li>
-          <li><a href="#education" class="hover:text-blue-500">Education</a></li>
-          <li><a href="#achievements" class="hover:text-blue-500">Achievements</a></li>
-          <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+          <li><a href="#home" class="hover:text-[#ddd]">Home</a></li>
+          <li><a href="#portfolio" class="hover:text-[#ddd]">Portfolio</a></li>
+          <li><a href="#education" class="hover:text-[#ddd]">Education</a></li>
+          <li><a href="#achievements" class="hover:text-[#ddd]">Achievements</a></li>
+          <li><a href="#contact" class="hover:text-[#ddd]">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
+  <div class="bg-gradient-to-b from-[#111] to-[rgba(0, 0, 0, 0.25)] h-16"></div>
+
   <!-- Hero Section -->
-  <section id="home" class="bg-white py-20 section">
+  <section id="home" class="bg-[#222] py-20 section">
     <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
       <div class="md:w-1/2">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">Hello, I'm Andrew Repollo</h1>
-        <p class="text-lg mb-6">I am a Lycean Student from Cavite.</p>
-        <a href="#portfolio" class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600">View My Work</a>
+        <h1 class="text-4xl md:text-5xl text-[#ccc] font-bold mb-4">Hello, I'm Andrew Repollo</h1>
+        <p class="text-lg text-[#aaa] mb-6">I am a Lycean Student from Cavite.</p>
+        <a href="#portfolio" class="bg-[#444] text-white px-6 py-3 rounded-full hover:bg-[#555]">View My Work</a>
       </div>
       <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
         <img src="https://media.discordapp.net/attachments/927766197049655317/1318965152220975154/ccd351de52e8ecb058e2c0c260ec41aa.png?ex=67643d85&is=6762ec05&hm=e312537a00ccbdf940ebdc6154b2581158d2429ab0971f72ceefcfe18a833fab&=&format=webp&quality=lossless" alt="Portrait of Anzu" class="rounded-full w-80 h-80 object-cover" />
@@ -39,134 +41,147 @@
     </div>
   </section>
 
+  <div class="bg-gradient-to-b from-[#222] to-[#1b1b1b] h-16"></div>
+
   <!-- Portfolio Section -->
-  <section id="portfolio" class="bg-gray-100 py-20 section">
+  <section id="portfolio" class="bg-[#1b1b1b] py-20 section">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">My Portfolio</h2>
+      <h2 class="text-3xl text-[#aaa] font-bold text-center mb-12">My Portfolio</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Project 1 -->
-        <div class="portfolio-item bg-white shadow-md rounded-lg overflow-hidden">
-          <img src="https://media.discordapp.net/attachments/927766197049655317/1318965067362078740/DFB950D2-A82D-4D3B-864A-82B5AA27E756.png?ex=67643d71&is=6762ebf1&hm=71511e5af5b35e3d753a35f281e4feb81508692b1e657664913bc7e3831c0924&=&format=webp&quality=lossless&width=1344&height=701" alt="Screenshot of Project 1" class="w-full h-56 object-cover" />
+        <div class="portfolio-item bg-[#222] shadow-md rounded-lg overflow-hidden">
+          <img src="https://media.discordapp.net/attachments/927766197049655317/1318965067362078740/DFB950D2-A82D-4D3B-864A-82B5AA27E756.png?ex=67643d71&is=6762ebf1&hm=71511e5af5b35e3d753a35f281e4feb81508692b1e657664913bc7e3831c0924&=&format=webp&quality=lossless&width=1344&height=701" alt="Screenshot of Project 1" class="w-full h-56 object-cover opacity-75" />
           <div class="p-4">
-            <h3 class="text-xl font-bold mb-2">Project 1</h3>
-            <p class="text-gray-700">Website with account data using phpmyadmin.</p>
+            <h3 class="text-xl text-[#aaa] font-bold mb-2">Project 1</h3>
+            <p class="text-[#999]">Website with account data using phpmyadmin.</p>
           </div>
         </div>
         <!-- Project 2 -->
-        <div class="portfolio-item bg-white shadow-md rounded-lg overflow-hidden">
-          <img src="https://media.discordapp.net/attachments/927766197049655317/1318970881212547092/BB042AA9-A256-4524-A282-3CD5C614D7BA.png?ex=676442db&is=6762f15b&hm=93066a9050412bd43661eafea0179048709f3e580342f436d321c81105ac483e&=&format=webp&quality=lossless" alt="Screenshot of Project 2" class="w-full h-56 object-cover" />
+        <div class="portfolio-item bg-[#222] shadow-md rounded-lg overflow-hidden">
+          <img src="https://media.discordapp.net/attachments/927766197049655317/1318970881212547092/BB042AA9-A256-4524-A282-3CD5C614D7BA.png?ex=676442db&is=6762f15b&hm=93066a9050412bd43661eafea0179048709f3e580342f436d321c81105ac483e&=&format=webp&quality=lossless" alt="Screenshot of Project 2" class="w-full h-56 object-cover opacity-75" />
           <div class="p-4">
-            <h3 class="text-xl font-bold mb-2">Project 2</h3>
-            <p class="text-gray-700">Student Info List Manager.</p>
+            <h3 class="text-xl text-[#aaa] font-bold mb-2">Project 2</h3>
+            <p class="text-[#999]">Student Info List Manager.</p>
           </div>
         </div>
         <!-- More projects here -->
-        <div class="portfolio-item bg-white shadow-md rounded-lg overflow-hidden">
-          <img src="https://i.sstatic.net/nIuYP.png" alt="Screenshot of Project 2" class="w-full h-56 object-cover" />
+        <div class="portfolio-item bg-[#222] shadow-md rounded-lg overflow-hidden">
+          <img src="https://i.sstatic.net/nIuYP.png" alt="Screenshot of Project 2" class="w-full h-56 object-cover opacity-75" />
           <div class="p-4">
-            <h3 class="text-xl font-bold mb-2">Project 3</h3>
-            <p class="text-gray-700">Python Calculator with GUI</p>
+            <h3 class="text-xl text-[#aaa] font-bold mb-2">Project 3</h3>
+            <p class="text-[#999]">Python Calculator with GUI</p>
           </div>
-        </div>
+        </div>  
       </div>
     </div>
   </section>
+
+  <div class="bg-gradient-to-b from-[#1b1b1b] to-[#222] h-10"></div>
 
   <!-- Education Section -->
-  <section id="education" class="bg-white py-20 section">
+  <section id="education" class="bg-[#222] py-20 section">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Education</h2>
+      <h2 class="text-3xl font-bold text-[#aaa] text-center mb-12">Education</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Education 1 -->
-        <div class="education-item bg-gray-100 shadow-md rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-2">Elementary Graduate</h3>
-          <p class="text-gray-700">St. Edwards Integrated School </p>
+        <div class="education-item bg-[#292929] shadow-md rounded-lg p-6">
+          <h3 class="text-xl text-[#aaa] font-bold mb-2">Elementary Graduate</h3>
+          <p class="text-[#999]">St. Edwards Integrated School </p>
         </div>
         <!-- Education 2 -->
-        <div class="education-item bg-gray-100 shadow-md rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-2">Junior Highschool Graduate</h3>
-          <p class="text-gray-700">Fiat Lux Academe of General Trias</p>
+        <div class="education-item bg-[#292929] shadow-md rounded-lg p-6">
+          <h3 class="text-xl text-[#aaa] font-bold mb-2">Junior Highschool Graduate</h3>
+          <p class="text-[#999]">Fiat Lux Academe of General Trias</p>
         </div>
         <!-- More education items here -->
-        <div class="education-item bg-gray-100 shadow-md rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-2">Senior Highschool Graduate</h3>
-          <p class="text-gray-700">Fiat Lux Academe of General Trias</p>
+        <div class="education-item bg-[#292929] shadow-md rounded-lg p-6">
+          <h3 class="text-xl text-[#aaa] font-bold mb-2">Senior Highschool Graduate</h3>
+          <p class="text-[#999]">Fiat Lux Academe of General Trias</p>
         </div>
       </div>
     </div>
   </section>
+
+  <div class="bg-gradient-to-b from-[#222] to-[#1b1b1b] h-10"></div>
 
   <!-- Achievements Section -->
-  <section id="achievements" class="bg-gray-100 py-20 section">
+  <section id="achievements" class="bg-[#1b1b1b] py-20 section">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Achievements</h2>
+      <h2 class="text-3xl font-bold text-[#aaa] text-center mb-12">Achievements</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Achievement 1 -->
-        <div class="achievement-item bg-white shadow-md rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-2">Certificate of completion</h3>
-          <p class="text-gray-700">Creotec Philippines. Inc.</p>
+        <div class="achievement-item bg-[#222] shadow-md rounded-lg p-6">
+          <h3 class="text-xl text-[#aaa] font-bold mb-2">Certificate of Completion</h3>
+          <p class="text-[#999]">Creotec Philippines. Inc.</p>
         </div>
         <!-- Achievement 2 -->
-        <div class="achievement-item bg-white shadow-md rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-2"> </h3>
-          <p class="text-gray-700"> </p>
+        <div class="achievement-item bg-[#222] shadow-md rounded-lg p-6">
+          <h3 class="text-xl text-[#aaa] font-bold mb-2"> </h3>
+          <p class="text-[#999]"> </p>
         </div>
         <!-- More achievements here -->
-        <div class="achievement-item bg-white shadow-md rounded-lg p-6">
-          <h3 class="text-xl font-bold mb-2"> </h3>
-          <p class="text-gray-700"> </p>
+        <div class="achievement-item bg-[#222] shadow-md rounded-lg p-6">
+          <h3 class="text-xl text-[#aaa] font-bold mb-2"> </h3>
+          <p class="text-[#999]"> </p>
         </div>
       </div>
     </div>
   </section>
 
+  <div class="bg-gradient-to-b from-[#1b1b1b] to-[#222] h-10"></div>
+
   <!-- Contact Section -->
-  <section id="contact" class="bg-white py-20 section">
+  <section id="contact" class="bg-[#222] py-20 section">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Contact Me</h2>
+      <h2 class="text-3xl font-bold text-center text-[#aaa] mb-12">Contact Me</h2>
       <div class="max-w-lg mx-auto">
-        <form action="contact.php" method="POST" class="bg-gray-100 p-8 rounded-lg shadow-md">
+        <form action="contact.php" method="POST" class="bg-[#292929] p-8 rounded-lg shadow-md">
           <div class="mb-4">
-            <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
-            <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+            <label for="name" class="block text-[#aaa] font-bold mb-2">Name</label>
+            <input type="text" id="name" name="name" class="w-full px-4 py-2 bg-[#333] border rounded-lg focus:outline-none focus:ring-2 focus:[#333]" required />
           </div>
           <div class="mb-4">
-            <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
-            <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+            <label for="email" class="block text-[#aaa] font-bold mb-2">Email</label>
+            <input type="email" id="email" name="email" class="w-full px-4 py-2 bg-[#333] border rounded-lg focus:outline-none focus:ring-2 focus:[#333]" required />
           </div>
           <div class="mb-4">
-            <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
-            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+            <label for="message" class="block text-[#aaa] font-bold mb-2">Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 bg-[#333] border rounded-lg focus:outline-none focus:ring-2 focus:[#333]" required></textarea>
           </div>
           <div class="text-center">
-            <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600">Send Message</button>
+            <button type="submit" class="bg-[#444] text-white px-6 py-3 rounded-full hover:bg-[#555]">Send Message</button>
           </div>
         </form>
       </div>
     </div>
   </section>
 
+  <div class="bg-gradient-to-b from-[#222] to-[#111] h-16"></div>
+
   <!-- Footer -->
-  <footer class="bg-gray-800 text-white py-6">
+  <footer class="bg-[#111] text-[#aaa] py-6">
     <div class="container mx-auto px-4 text-center">
-      <p>© 2023 John Doe. All rights reserved.</p>
+      <p>© 2023 Andrew Repollo. All rights reserved.</p>
       <div class="mt-4">
-        <a href="#" class="text-white hover:text-blue-500 mx-2"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="text-white hover:text-blue-500 mx-2"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="text-white hover:text-blue-500 mx-2"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#" class="text-white hover:text-blue-500 mx-2"><i class="fab fa-github"></i></a>
+        <a href="#" class="text-[#aaa] hover:text-blue-500 mx-2"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-[#aaa] hover:text-blue-500 mx-2"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-[#aaa] hover:text-blue-500 mx-2"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-[#aaa] hover:text-blue-500 mx-2"><i class="fab fa-github"></i></a>
       </div>
     </div>
   </footer>
+
+  <!-- Animation -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      const sections = document.querySelectorAll("section");
-
+      const sections = document.querySelectorAll(".section");
+      const header = document.querySelector("header");
+  
       const options = {
         root: null,
         threshold: 0.1,
       };
-
+  
       const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
@@ -175,11 +190,19 @@
           }
         });
       }, options);
-
+  
       sections.forEach((section) => {
         observer.observe(section);
       });
+  
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
     });
-  </script>
+  </script>  
 </body>
 </html>
