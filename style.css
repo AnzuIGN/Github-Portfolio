@@ -1,37 +1,66 @@
-/* General Styles */
-body {
-    font-family: 'Roboto', sans-serif;
+/* Smooth fade-in effect for sections */
+.section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-a {
-  transition: color 0.3s ease, transform 0.3s ease;
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.portfolio-item {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* Header animation on scroll */
+header {
+  transition: background-color 0.4s, box-shadow 0.4s;
+}
+
+header.scrolled {
+  background-color: rgba(17, 17, 17, 0.9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.education-item:hover{
   transform: translateY(-5px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-button {
+.achievement-item:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover animation */
+button, .hover\:bg-blue-600 {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-button:hover {
+button:hover, .hover\:bg-blue-600:hover {
   transform: scale(1.05);
 }
 
-/* Fade-in effect for sections */
-section {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+/* Smooth transition for nav links */
+nav a {
+  position: relative;
+  transition: color 0.3s ease;
 }
 
-section .visible {
-  opacity: 1;
-  transform: translateY(0);
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #222;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
